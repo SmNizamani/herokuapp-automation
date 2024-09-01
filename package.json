@@ -1,0 +1,23 @@
+{
+  "name": "rv_automation",
+  "version": "1.0.0",
+  "description": "Automating Automation Practice By RV website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "playwright test --config=e2e.config.ts --project=Chromium",
+    "e2e-h": "playwright test --config=e2e.config.ts --project=Chromium --headed"
+  },
+  "keywords": [
+    "POM",
+    "playwright",
+    "typescript",
+    "ts"
+  ],
+  "author": "SM NIZAMANI",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.46.1",
+    "prettier": "^3.3.3"
+  }
+}
